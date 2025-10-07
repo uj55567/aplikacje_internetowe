@@ -3,7 +3,6 @@ body{
     background-image: url(background.jpg);
     margin: 0;
     padding: 0;
-    background-attachment: fixed;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,17 +17,13 @@ header{
 
    
 }
-nav,footer{
+nav,footer {
     background-color: #333333;
-    color: white;
     width: 100%;
-    margin: auto;
-    gap: 10px;
-    height: 200%;
     display: flex;
     justify-content: center;
-    margin: 0px;
-
+    gap: 10px;
+    margin: 0;
 }
 main{
     text-align: center;
@@ -82,5 +77,4 @@ p{
 }
 #onas{
     text-shadow: 2px 2px rgb(0, 0, 0);
-
 }

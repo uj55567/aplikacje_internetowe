@@ -3,7 +3,7 @@ body {
     background: linear-gradient(135deg, #ffe5b4, #fff);
     margin: 0;
     padding: 0;
-    color: #222;
+    color: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,11 +94,11 @@ p {
     border-radius: 10px;
 }
 
-footer {
+footer{
     background-color: #003049;
-    color: #fff;
+    font-size: 50px;
     text-align: center;
     padding: 20px;
-    font-size: 0.9em;
+    color: white;
     margin-top: 20px;
 }
