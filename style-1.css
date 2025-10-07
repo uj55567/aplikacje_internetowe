@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+header{
+    text-align: center;
+    background-color: #979797;
+    width: 100%; 
+    margin: 0;
+    padding: 30px 0;
+
+   
+}
+nav,footer{
+    background-color: #333333;
+    color: white;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+main{
+    text-align: center;
+    background-color: #3333335b;
+    margin: 0px;
+    padding: 20px;
+    
+
+}
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0; 
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-style: italic;
+    }
+
+img{
+    width: 45%;
+    border-radius: 10%;
+    transition: transform 0.5s ease;
+    margin: 1%;
+    border: 5px solid black;
+}
+
+h1{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-style: italic;
+}
+h2{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+h3{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-style: italic;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+p{
+    font-style: italic;
+}
+#kontakt{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+#onas{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
