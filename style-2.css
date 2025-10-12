@@ -1,3 +1,7 @@
+* {
+    
+    text-shadow: 0 6px 20px rgb(0, 0, 0);
+}
 body {
     font-family: "Poppins", sans-serif;
     background: linear-gradient(135deg, #ffe5b4, #fff);
@@ -7,35 +11,32 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
-header {
-    text-align: center;
+#header {
     background-color: #d62828;
     color: #fff;
-    width: 100%;
-    margin: 0;
-    padding: 30px 0;
-    border-bottom: 5px solid #f77f00;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    height: 10%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 90%;
+
 }
 
-h1 {
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    text-shadow: none;
-}
-
-nav {
+#nav {
     background-color: #f77f00;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 1%;
     padding: 15px;
     margin: 0;
 }
 
-nav a {
+#nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -43,16 +44,17 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+#nav a:hover {
     color: #003049;
 }
 
-main {
+#main {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0;
     padding: 40px;
     border-radius: 10px;
+    color: #333;
 }
 
 img {
@@ -60,12 +62,12 @@ img {
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 20px;
-    box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 6px 20px rgb(0, 0, 0);
 }
 
 img:hover {
     transform: scale(1.08);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 20px rgb(0, 0, 0);
 }
 
 ul {
@@ -76,10 +78,31 @@ ul {
     color: #444;
 }
 
+h1 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    text-shadow: none;
+}
+
 h2, h3 {
     color: #003049;
     font-style: normal;
     text-shadow: none;
+}
+#footer {
+    background-color: #003049;
+    text-align: center;
+    width: 40%;
+    height: 5%;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px rgb(0, 0, 0);
+    margin: 0 auto;
+
+    
+}
+
+#footer_txt{
+    color: white;
 }
 
 p {
@@ -87,18 +110,6 @@ p {
     color: #333;
 }
 
-#onas, #kontakt {
-    background-color: rgba(255, 247, 230, 0.9);
-    margin: 20px 0;
-    padding: 30px;
-    border-radius: 10px;
-}
 
-footer{
-    background-color: #003049;
-    font-size: 50px;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    margin-top: 20px;
-}
+
+

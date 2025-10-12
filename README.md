@@ -1,1 +1,0 @@
-# aplikacje_internetowe
