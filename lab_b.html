@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_b JavaScript</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+
+<center>
+    <main>
+        <div id="szukaj">
+            <i id="lupa" class="fas fa-search"></i>
+
+            <input placeholder="Szukaj" id="szukaj_input">
+        </div>
+        <div id="lista">
+            <div id="wstaw">
+                <input type="text" id="wstaw_input" placeholder="Treść zadania">
+                <input type="date" id="wstaw_data">
+                <button id="dodaj_zadanie_btn" onclick="zapiszDane()">Dodaj zadanie</button>
+            </div>
+            <h3>Lista Zadań</h3>
+            <ul id="zadania_lista"></ul>
+
+            <template id="zadanie-template">
+                <li id="dane">
+                    <button class="usun-btn"><i class="fa-solid fa-xmark"></i></button>
+                    <span class="zadanie-nazwa"></span> 
+                    <span class="zadanie-data"></span>
+                </li>
+            </template>
+        </div>
+    </main>
+</center>
+
+</body>
+</html>
