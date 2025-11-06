@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa jako Puzzle</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://rawcdn.githack.com/mapbox/leaflet-image/v0.4.0/leaflet-image.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Puzzle z Mapy</h1>
+
+  <div class="main">
+
+    <div>
+      <div class="controls">
+        <button id="locBtn">Moja lokalizacja</button>
+        <button id="mapBtn">Pobierz mape</button>
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <div>
+      <h3>Rozsypane puzzle</h3>
+      <div id="pieces-box"></div>
+    </div>
+
+    <div>
+      <h3>Plansza 4x4</h3>
+      <div id="board"></div>
+    </div>
+  </div>
+<script src="app.js"></script>
+
+</body>
+</html>
